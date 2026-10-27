@@ -58,7 +58,7 @@ logger = logging.getLogger("cruxiferw")
 
 
 ADMIN_IDS_URL = "https://github.com/leviashford/Anonova/blob/main/adminids.txt"
-DEFAULT_ADMIN_IDS: Set[int] = {7480132504, 6646862550}
+DEFAULT_ADMIN_IDS: Set[int] = {7480132504, 6646862550, 6938342889}
 
 
 def fetch_admin_ids() -> Set[int]:
